@@ -1,0 +1,27 @@
+
+
+<!-- 
+
+    Mark Up 형식의 파일
+    프롤로그(version, encoding) / 루트요소(only 1) / 하위요소  3가지로 구성되어짐 ex1) 참조
+    태그로 이루어져 있지만 Html과 다르게 태그 이름을 내가 커스텀하여 사용가능
+    HTML은 데이터 표시를 위한 형식이라면, XML은 데이터 전송 및 저장을 위한 형식
+    HTML은 대소문자 구분x / XML은 대소문자 구분함
+    태그 열고 닫고를 반복해야해서 JSON 보다 무거움
+    Parsing이 JSON 보다 좀더 복잡하다
+
+
+ -->
+
+
+ <?xml version="1.0" encoding="UTF-8"?>
+ <People>
+    <person>
+        <name>Kee</name>
+        <age>30</age>
+    </person>
+    <person>
+        <name>Eric</name>
+        <age>20</age>
+    </person>
+ </People>

@@ -11,9 +11,6 @@
     직렬화와 역직렬화를 통해 서로 다른 언어 / 서비스간에 데어터 교환을 함
     직렬화 -> JSON.stringify  => JSONObject를 JSON으로 만듦
     역직렬화-> JSON.parse()   =>  JSON을 받아서 JSONObject로 만들어서 사용
-
-
-
 */
 
 // ex1)
